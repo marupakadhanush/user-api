@@ -1,0 +1,25 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "A simple user management API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^8.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
